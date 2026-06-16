@@ -1,0 +1,129 @@
+{
+  "version": "1.0",
+  "fecha": "2026-06-04",
+  "autor": "[Ramon Rey Dominguez]",
+  "licencia": "MIT",
+  "inspiracion": "Codigo Morse (1830), Codigo QR (1994)",
+  "cuadrados": [
+    {
+      "id": 1,
+      "nombre": "LUZ",
+      "cuadrado": "█  █\n████\n█  █\n█  █",
+      "significado": "Necesito luz",
+      "accion": "/luz_on",
+      "categoria": "necesidad"
+    },
+    {
+      "id": 2,
+      "nombre": "PELIGRO",
+      "cuadrado": "████\n████\n████\n████",
+      "significado": "Peligro / Alarma",
+      "accion": "/alarma",
+      "categoria": "emergencia"
+    },
+    {
+      "id": 3,
+      "nombre": "AYUDA",
+      "cuadrado": "███\n█ █\n███",
+      "significado": "Necesito ayuda",
+      "accion": "/ayuda",
+      "categoria": "emergencia"
+    },
+    {
+      "id": 4,
+      "nombre": "PERDIDO",
+      "cuadrado": "█  █\n█  █\n█  █\n█  █",
+      "significado": "Estoy perdido",
+      "accion": "/ubicacion",
+      "categoria": "emergencia"
+    },
+    {
+      "id": 5,
+      "nombre": "FRIO",
+      "cuadrado": "█  █\n█  █\n████\n█  █",
+      "significado": "Tengo frío",
+      "accion": "/calor_on",
+      "categoria": "clima"
+    },
+    {
+      "id": 6,
+      "nombre": "CALOR",
+      "cuadrado": "█  █\n████\n█  █\n█  █",
+      "significado": "Tengo calor",
+      "accion": "/ventilador_on",
+      "categoria": "clima"
+    },
+    {
+      "id": 7,
+      "nombre": "DESCANSAR",
+      "cuadrado": "███\n█ █\n███\n█ █",
+      "significado": "Quiero descansar",
+      "accion": "/modo_descanso",
+      "categoria": "confort"
+    },
+    {
+      "id": 8,
+      "nombre": "ENTRAR",
+      "cuadrado": "██\n██",
+      "significado": "Quiero entrar",
+      "accion": "/abrir_puerta",
+      "categoria": "acceso"
+    },
+    {
+      "id": 9,
+      "nombre": "SALIR",
+      "cuadrado": "██\n  ",
+      "significado": "Quiero salir",
+      "accion": "/abrir_salida",
+      "categoria": "acceso"
+    },
+    {
+      "id": 10,
+      "nombre": "BLOQUEAR",
+      "cuadrado": "████\n█  █\n█  █\n████",
+      "significado": "Bloquear acceso",
+      "accion": "/cerrar_todo",
+      "categoria": "seguridad"
+    },
+    {
+      "id": 11,
+      "nombre": "EMERGENCIA_MEDICA",
+      "cuadrado": "███\n█ █\n███\n███",
+      "significado": "Emergencia médica",
+      "accion": "/emergencia_medica",
+      "categoria": "emergencia"
+    },
+    {
+      "id": 12,
+      "nombre": "FUEGO",
+      "cuadrado": "█  █\n████\n█  █\n████",
+      "significado": "Fuego",
+      "accion": "/anti_incendios",
+      "categoria": "emergencia"
+    },
+    {
+      "id": 13,
+      "nombre": "INTRUSO",
+      "cuadrado": "████\n█  █\n████\n█  █",
+      "significado": "Intruso",
+      "accion": "/alerta_seguridad",
+      "categoria": "seguridad"
+    },
+    {
+      "id": 14,
+      "nombre": "SILENCIO",
+      "cuadrado": "█  █\n█  █\n█  █\n████",
+      "significado": "Silencio",
+      "accion": "/silenciar",
+      "categoria": "confort"
+    },
+    {
+      "id": 15,
+      "nombre": "HAMBRE",
+      "cuadrado": "███\n█ █\n█ █\n███",
+      "significado": "Necesito agua/comida",
+      "accion": "/asistencia",
+      "categoria": "necesidad"
+    }
+  ]
+}
